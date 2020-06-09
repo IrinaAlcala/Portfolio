@@ -1,0 +1,23 @@
+body {
+    color: white;
+    background-color: #252525;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 430px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    * {
+        scroll-snap-type: x none;
+        scroll-behavior: auto;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
