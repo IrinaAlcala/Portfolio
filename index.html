@@ -9,6 +9,7 @@
     <title>Irina Alcala</title>
 </head>
 <body>
+    <!-- <img src="static/images/city.png" alt="photo"> -->
     <header>
         <ul>
             <li><a class="item" href="#about">About</a></li>
@@ -28,17 +29,20 @@
             <div class="triple-item" id="about">
                 <div id="social-bar">
                     <div class="social-icon">
-                        <div style="background-color: #171a1d;">
-                            <a href="https://github.com/IrinaAlcala" target="_blank"><img src="static/images/github_PNG40.png" alt="github logo"></a>
+                        <div style="background-color: white; border: 2px solid black;">
+                            <a href="https://github.com/IrinaAlcala" target="_blank"><img src="static/images/github.png" alt="github logo"></a>
                         </div>
                     </div>
+                    <br>
                     <div class="social-icon">
-                        <div style="background-color: #1179b5;">
-                            <a href="https://www.linkedin.com/in/irina-alcala-57a635123/" target="_blank"><img src="static/images/LinkedIn.png" alt="linkedin logo"></a>
+                        <div style="background-color:white; border: 2px solid black;">
+                            <a href="https://www.linkedin.com/in/irina-alcala-57a635123/" target="_blank"><img src="static/images/linkedin.png" alt="linkedin logo"></a>
                         </div>
                     </div>
+                    <br>
                     <div class="social-icon">
-                        <div style="background-color: black;">
+                        <div style="background-color: white; border: 2px solid black;">
+                            <a href="mailto:irina.guseva.alcala@gmail.com" target="_blank"><img src="static/images/email.png" alt="email logo"></a>
                             
                         </div>
                     </div>
@@ -47,15 +51,196 @@
                     <div id="profile-card-header">
                         <div class="inline-div">
                             <div id="avatar-border">
-                                <img src="static/images/profilePic.png" alt="photo" id="avatar">
+                                <img src="static/images/photo.png" alt="photo" id="avatar">
                             </div>
                         </div>
                         <div id="profile-card-title" class="inline-div">
-                            <h1>Irina Alcala</h1>
-                            <h4>Full-Stack Web Developer</h4>
+                            <h1>Hi, my name is Irina. I am a full stack developer living in Los Angeles, CA</h1>
+                            <!-- <h4>Full-Stack Web Developer</h4> -->
+                        <h5>I enjoy finding solutions to problems and seeking out answers from different perspectives. Coming from a background in healthcare, I am passionate about improving efficiency and motivated by making things work for people. I strive to always learn more through communicating with others and working with a team.</h5>
                         </div>
                     </div>
-                    <p id="description">Passionate Software Engineer</p>
-                    <p id="description">I love a good challenge; especially when it is related to software.I code with the purpose of making the world a better place.</p>
+                    <br>
+                    <!-- <p>HTML/CSS | Materialize | JavaScript | React | NodeJS | Express | mongoDB | Python | Django</p> -->
+                    <!-- <p id="description">Passionate Software Engineer</p>
+                    <p id="description">I love a good challenge especially when it is related to software. I code with the purpose of making the world a better place.</p> -->
                     <a id="resume-link" href="https://docs.google.com/document/d/1GhOdHHm6rYqb9j-Ys8coMKv3pw7GqkmFcaWsxquv8ZA/edit?usp=sharing" target="_blank">My Resume</a>
                 </div>
+
+                <div class="right-arrow"><a href="#projects">&#x276F;</a></div>
+                <div id="social-bar-mobile">
+                    <div class="social-icon-mobile">
+                        <div style="background-color: #171a1d;">
+                            <a href="https://github.com/IrinaAlcala" target="_blank"><img src="static/images/github.png" alt="github logo"></a>
+                        </div>
+                    </div>
+                    <div class="social-icon-mobile">
+                        <div style="background-color: #1179b5;">
+                            <a href="https://www.linkedin.com/in/irina-alcala-57a635123/" target="_blank"><img src="static/images/LinkedIn.png" alt="linkedin logo"></a>
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-directions">
+                    <p id="scroll-text">scroll</p>
+                    <p id="direction-arrow">V</p>
+                </div>
+            </div>
+        </section>
+        <section class="page" id="projects">
+            <div class="triple-item" class="triple-item">
+                <div class="left-arrow"><a href="#about">&#x276E;</a></div>
+                <div id="projects-container">
+                    <div class="project-card warm-color-1 layer-1 offset-1" onclick="slide(0)">
+                        <div class="project-card-img-container">
+                             <img id="flower-logo" src="static/images/flower.png" alt="auditory logo">  
+                        </div>
+                        <div class="center-text">
+                            <h2>Good Vibes</h2>
+                            <div class="project-tech-stack"> 
+                                <ul>
+                                    <li>MongoDB</li>
+                                    <li>Express</li>
+                                    <li>React</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                            <p class="project-description">Good Vibes is a collection of famous motivational and inspirational quotes that can brighten your day and give you a sense of purpose and encouragement.</p>
+                        </div>
+                        <div class="view-code-container">
+                             <a class="demo-app-link" href="https://irinavibes.herokuapp.com/" target="_blank">Try it!</a> 
+                            <a href="https://github.com/IrinaAlcala/Quotes" target="_blank"><button class="view-project-code-button"><img src="static/images/github.png" alt="github logo" class="github-logo">view code</button></a>
+                        </div>
+                    </div>
+                    <div class="project-card warm-color-2 layer-2 offset-2" onclick="slide(1)">
+                        <div class="project-card-img-container">
+                            <img src="static/images/food.png" alt="pet matcher logo">
+                        </div>
+                        <div class="center-text">
+                            <h2>LA Vegan Times</h2>
+                            <div class="project-tech-stack">
+                                <ul>
+                                    <li>MongoDB</li>
+                                    <li>Express</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                            <p class="project-description">This app will guide you through some of the best vegan restaurants in Los Angeles!. </p>
+                        </div>
+                        <div class="view-code-container">
+                            <a class="demo-app-link" href=" https://guarded-chamber-80491.herokuapp.com/" target="_blank">Try It</a>
+                            <a href="https://github.com/IrinaAlcala/LA-VEGAN-TIMES" target="_blank"><button class="view-project-code-button"><img src="static/images/github.png" alt="github logo" class="github-logo">view code</button></a>
+                        </div>
+                    </div>
+                    <div class="project-card warm-color-3 layer-3 offset-3" onclick="slide(2)">
+                        <div class="project-card-img-container" id="mailman-logo-container">
+                            <img src="static/images/game.png" alt="mailmain logo">
+                        </div>
+                        <div class="center-text">                            
+                            <h2>Game Forum</h2>
+                            <div class="project-tech-stack">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Django</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                            <p class="project-description">Game forum is a website where people from around the world can review the games that they play. </p>
+                            <p class="project-description">( Group Project )</p>
+                        </div>
+                        <div class="view-code-container">
+                            <a class="demo-app-link" href="https://p3gameforum.herokuapp.com//" target="_blank">Try It!</a>
+                            <a href="https://github.com/IrinaAlcala/game_forum" target="_blank"><button class="view-project-code-button"><img src="static/images/github.png" alt="github logo" class="github-logo">view code</button></a>
+                        </div>
+                    </div>
+                    <div class="project-card warm-color-4 layer-4 offset-4" onclick="slide(3)">
+                        <div class="project-card-img-container">
+                            <img src="static/images/simon.png" alt="checker board">
+                        </div>
+                        <div class="center-text">
+                            <h2>Simon Game</h2>
+                            <div class="project-tech-stack">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <p class="project-description">Using pure HTML, CSS, and JavaScript I built the old-fashioned game "Simon Says".</p>
+                            <p class="project-description">It helped me to better understand the fundamentals of JavaScript</p>
+                        </div>
+                        <div class="view-code-container">
+                            <a class="demo-app-link" href="https://romantic-lalande-5d628a.netlify.com/" target="_blank">Try It!</a>
+                            <a href="https://github.com/IrinaAlcala/simon-game" target="_blank"><button class="view-project-code-button"><img src="static/images/github.png" alt="github logo" class="github-logo">view code</button></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="right-arrow"><a href="#contact">&#x276F;</a></div>
+            
+            </div>
+         </section> 
+         <section class="page" id="contact">
+            <div class="triple-item" class="triple-item">
+                <div class="left-arrow"><a href="#projects">&#x276E;</a></div>
+        
+                <div id="skills-container">
+                   
+                    <div class="skills-container">
+
+
+                <div id="contact-container">
+                   
+                        <div class="contact-container">
+        
+                    <h1>Let's Connect! </h1>
+                    <p id="email-method-text">You can fill out the form below</p>
+                    <p id="my-email">irina.guseva.alcala@gmail.com</p>
+                    
+                    <form class="gform" method="POST" data-email="irina.guseva.alcala@gmail.com" action="mailto: irina.guseva.alcala@gmail.com">
+                        <div class="form-elements">
+                            <div id="email-div-1">
+                                <label>
+                                    Your name
+                                    <input id="name" type="text" name="name" placeholder="">
+                                </label>
+                                <label>
+                                     Your e-mail
+                                    <input id="email" type="email" name="email" value="" placeholder="" required>
+                                </label>
+                                <div style="display:none" class="email-invalid error">
+                                    The e-mail entered is invalid 
+                                </div>
+                                <div style="display:none" class="no-name error">
+                                    Who is sending? 
+                                </div>
+                                <div style="display:none" class="no-message error">
+                                    I need a message...
+                                </div>
+                            </div>
+                            <div>
+                                <label>
+                                    Send me a message
+                                    <textarea id="message" name="message" rows="8"></textarea>
+                                </label>
+                                <button class="send-button">
+                                    send
+                                </button>
+                                <div class="lds-ellipsis send-animation"><div></div><div></div><div></div><div></div></div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="thankyou_message drop">
+                        <p style="margin-top: 6vh;">Thanks for the e-mail! </p>
+                        <p style="color: grey; margin-left: 3vw;">I'll get back to you as soon as I can!</p>
+                    </div>
+                </div>
+               
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
